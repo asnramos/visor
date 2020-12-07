@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+	{"type":"Feature","geometry":{"type":"Point","coordinates":[-67.02875,-23.23939]},"properties":{"id":1,"punto":"1253","titulo":"CENSO DE VEGETACION","descripcion":"ZONA PUNENIA EN ALREDEDORES LAGUNA DE JAMA","institucion":"LABORATORIO DE PALINOLOGIA (FCA, UNJu - INECOA)","ecorregion":"ALTO ANDES","fuente":"PROYECTO FUNDACION VOLKSWAGEN","altura":"4087 msnm","url":"https://inecoa-unju.conicet.gov.ar"}}
+]}
