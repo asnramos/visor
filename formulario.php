@@ -4,14 +4,14 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 if (isset($_POST["id"])) {
-  $latitud = floatval($_POST["latitud"]);
   $longitud = floatval($_POST["longitud"]);
+  $latitud = floatval($_POST["latitud"]);
 
   $row = array(
     "type" => "Feature",
     "geometry" => array(
       "type" => "Point",
-      "coordinates" => array($latitud, $longitud)
+      "coordinates" => array($longitud, $latitud)
     ),
     "properties" => array(
       "id" => $_POST["id"],
