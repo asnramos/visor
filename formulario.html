@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-7">
+    <title>Formulario VISOR INECOA.</title>
+	
+	<link type="text/css" rel="stylesheet" href="estilo.css">
+
+    <style type="text/css" media="screen">
+      div {
+        margin-bottom: 1.5rem;
+		font-family: Tahoma, Verdana, sans-serif;
+		}
+
+      label {
+        display: block;
+      }
+	  	  
+    </style>
+  </head>
+  <body>
+    <form action="formulario.php" method="POST">
+		<div>
+			<label>LAYER : CAPA : SUBCATEGORIA : </label><br>
+			<select type="text" value="" name="subcategoria" id="">
+			  <option value="geomorfologia"><font size="3" face="Verdana" color="black">GEOMORFOLOGIA</option>
+			  <option value="edafologia"><font size="3" face="Verdana" color="black">EDAFOLOGIA</option>
+			  <option value="vulcasismi"><font size="3" face="Verdana" color="black">VULCANISMO Y SISMOLOGIA</option>
+			  <option value="glaciologia"><font size="3" face="Verdana" color="black">GLACIOLOGIA</option>
+			  <option value="geologia"><font size="3" face="Verdana" color="black">GEOLOGIA</option>
+			</select>
+	
+        <!-- <input type="text" value="" name="ecorregion" id=""/> -->
+		
+		
+      </div>
+		
+      <div>
+        <label>Latitud</label>
+        <input type="text" value="" name="latitud" id=""/>
+      </div>
+
+      <div>
+        <label>Longitud</label>
+        <input type="text" value="" name="longitud" id=""/>
+      </div>
+
+      <div>
+        <label>ID</label>
+        <input type="text" value="" name="id" id=""/>
+      </div>
+
+      <div>
+        <label>Punto</label>
+        <input type="text" value="" name="punto" id=""/>
+      </div>
+
+      <div>
+        <label>Titulo</label>
+        <input type="text" value="" name="titulo" id=""/>
+      </div>
+
+      <div>
+        <label>Descripcion</label>
+        <textarea name="descripcion" id=""></textarea>
+      </div>
+
+      <div>
+        <label>Institucion</label>
+        <input type="text" value="" name="institucion" id=""/>
+      </div>
+
+      <div>
+        <label>Ecorregion</label><br>
+		<select type="text" value="" name="ecorregion" id="">
+		  <option value="PUNA"><font size="3" face="Verdana" color="black">PUNA</option>
+		  <option value="ALTOS ANDES"><font size="3" face="Verdana" color="black">ALTOS ANDES</option>
+		  <option value="MONTES SIERRAS BOLSONES"><font size="3" face="Verdana" color="black">MONTES SIERRAS BOLSONES</option>
+		  <option value="SELVA de YUNGAS"><font size="3" face="Verdana" color="black">SELVA de YUNGAS</option>
+		  <option value="CHACO SECO"><font size="3" face="Verdana" color="black">CHACO SECO</option>
+		</select>
+	
+        <!-- <input type="text" value="" name="ecorregion" id=""/> -->
+		
+		
+      </div>
+
+      <div>
+        <label>Fuente</label>
+        <input type="text" value="" name="fuente" id=""/>
+      </div>
+
+      <div>
+        <label>Altura</label>
+        <input type="text" value="" name="altura" id=""/>
+      </div>
+
+      <div>
+        <label>URL</label>
+        <input type="text" value="http://" name="url" id=""/>
+      </div>
+
+      <div>
+        <button type="submit"><font size="3" face="Verdana" color="black">Enviar...</button>
+      </div>
+    </form>
+  </body>
+</html>
